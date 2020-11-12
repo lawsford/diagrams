@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T20:35:55.037Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="mpHy6iFLC_BmxDKdChzJ" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T21:15:01.896Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="opVS8MAFRYrWswrLktuM" version="13.9.7" type="github">
   <diagram id="d6jSkPpsse6BQJAf7l3w" name="Page-1">
     <mxGraphModel dx="1990" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -161,10 +161,10 @@
           <mxGeometry x="510" y="270" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CNARjbl9b3PsI-s4-SSZ-40" value="Render manifest templates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="240" width="120" height="80" as="geometry" />
+          <mxGeometry x="720" y="240" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CNARjbl9b3PsI-s4-SSZ-41" value="Deploy manifests" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="845" y="240" width="120" height="80" as="geometry" />
+          <mxGeometry x="980" y="240" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CNARjbl9b3PsI-s4-SSZ-42" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CNARjbl9b3PsI-s4-SSZ-40" target="CNARjbl9b3PsI-s4-SSZ-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -177,6 +177,31 @@
         </mxCell>
         <mxCell id="CNARjbl9b3PsI-s4-SSZ-44" value="&lt;span style=&quot;font-size: 14px&quot;&gt;HELM&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;" vertex="1" parent="1">
           <mxGeometry x="440" y="270" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CNARjbl9b3PsI-s4-SSZ-45" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=none;" edge="1" parent="1" source="CNARjbl9b3PsI-s4-SSZ-29" target="CNARjbl9b3PsI-s4-SSZ-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="380" as="sourcePoint" />
+            <mxPoint x="870" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="400" />
+              <mxPoint x="1120" y="330" />
+              <mxPoint x="690" y="330" />
+              <mxPoint x="690" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CNARjbl9b3PsI-s4-SSZ-46" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CNARjbl9b3PsI-s4-SSZ-14" target="CNARjbl9b3PsI-s4-SSZ-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="210" as="sourcePoint" />
+            <mxPoint x="280" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1230" y="520" />
+              <mxPoint x="1230" y="490" />
+              <mxPoint x="1230" y="450" />
+              <mxPoint x="690" y="450" />
+              <mxPoint x="690" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
